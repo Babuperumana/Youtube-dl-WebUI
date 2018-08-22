@@ -15,14 +15,6 @@
     </head>
     <body >
         <div class="navbar navbar-default">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="<?php echo $mainPage; ?>">Youtube-dl WebUI</a>
-            </div>
             <div class="navbar-collapse  collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="<?php echo $mainPage; ?>">Download</a></li>
@@ -105,10 +97,6 @@ else {
         </div><!-- End container -->
         <br>
         <footer>
-            <div class="well text-center">
-                <p><a href="https://github.com/p1rox/Youtube-dl-WebUI" target="_blank">Fork me on Github</a></p>
-                <p>Created by <a href="https://twitter.com/p1rox" target="_blank">@p1rox</a> - Web Site : <a href="http://p1rox.fr" target="_blank">p1rox.fr</a></p>
-            </div>
         </footer>
     </body>
 </html>
